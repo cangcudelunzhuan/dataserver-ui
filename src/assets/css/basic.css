@@ -1,0 +1,67 @@
+@charset "utf-8";
+@import "//at.alicdn.com/t/font_764125_xarj9zqax7a.css";
+html, body{
+  padding: 0;
+  margin: 0 auto;
+}
+.clearfix::after{
+  content: "." ;
+  display: block ;
+  height: 0 ;
+  clear: both ;
+  visibility: hidden ;
+}
+.floatLeft{
+  float: left;
+}
+.floatRight{
+  float: right;
+}
+img{
+  display: block;
+}
+.indexRight{
+  margin-left: 12.5%;
+  background: #f6f6f6
+}
+.rightInnerbox{
+  background: #fff
+}
+.showcrumbs.rightInnerbox{
+  margin: 22px;
+  padding: 0 22px;
+}
+/* .crumbsbox + .rightInnerbox{
+  margin: 0 22px 22px 22px;
+  background: #fff
+} */
+.el-scrollbar__wrap {
+  overflow-x: hidden;
+}
+.tableToolbox{
+  text-align: right;
+  margin-bottom: 22px;
+  margin-right: 1px
+}
+.tableSearchBox{
+  width: 250px;
+  margin-left: 10px
+}
+.pagebox{
+  text-align: right;
+  margin-top: 22px
+}
+.pagebox .el-pagination{
+  padding: 0
+}
+.tableBox{
+  width: 100%;
+  padding: 0 10px
+}
+.confirmDialog .el-button--primary{
+  background: #296AB4;
+  border-color: #296AB4
+}
+.el-select-dropdown .el-scrollbar__wrap{
+  overflow-x: scroll;
+}
